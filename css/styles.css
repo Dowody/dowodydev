@@ -5744,6 +5744,7 @@ section.s-features {
 @media (max-width: 1080px) {
     .no-js .s-intro__content-btns, .ss-show .s-intro__content-btns {
         position: relative;
+        bottom: 0.1rem;
     }
     .no-js .s-intro__content-title, .ss-show .s-intro__content-title {
         font-size: 5.2rem;
