@@ -5760,6 +5760,12 @@ section.s-features {
         font-size: 3.7rem;
         margin-bottom: 0;
     }
+    .s-pricing__block-title {
+        font-size: 3rem;
+    }
+    .s-pricing__block-subtitle {
+        font-size: 1.6rem;
+    }
    
 }
 @media (max-width: 411px) {
