@@ -3784,6 +3784,7 @@ section.s-features {
         --content-padding-bottom: 9.6rem;
         background: var(--color-3);
     }
+    
 
     .s-intro__content {
         padding-bottom: var(--vspace-0_75);
@@ -5282,6 +5283,7 @@ section.s-features {
 }
 
 @media screen and (max-width: 600px) {
+    
     .s-faq__block-title::before {
         width: 3rem;
         margin-right: 1.2rem;
@@ -5469,6 +5471,7 @@ section.s-features {
 
 
 @media screen and (max-width: 800px) {
+    
     .section-header .text-display-title.temp {
         position: relative;
         left: 2rem;
@@ -5500,7 +5503,7 @@ section.s-features {
     .s-pricing__content {
         max-width: 1400px;
         margin: 0 auto;
-        padding: 0 0px;
+        padding: 0 5px;
         margin-bottom: 200px;
         position: relative;
         min-height: 2700px;
@@ -5736,4 +5739,39 @@ section.s-features {
     transform: translateY(-8px);
     transition-delay: 0s;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 1080px) {
+    .no-js .s-intro__content-btns, .ss-show .s-intro__content-btns {
+        position: relative;
+    }
+    .no-js .s-intro__content-title, .ss-show .s-intro__content-title {
+        font-size: 5.2rem;
+    }
+}
+@media (max-width: 768px) {
+    .no-js .s-intro__content-title, .ss-show .s-intro__content-title {
+        font-size: 4.2rem;
+    }
+}
+@media (max-width: 480px) {
+    .no-js .s-intro__content-title, .ss-show .s-intro__content-title {
+        font-size: 3.7rem;
+        margin-bottom: 0;
+    }
+   
+}
+@media (max-width: 411px) {
+    .no-js .s-intro__content-title, .ss-show .s-intro__content-title {
+        font-size: 3.5rem;
+        margin-bottom: 0;
+    }
+   
+}
+@media (max-width: 385px) {
+    .no-js .s-intro__content-title, .ss-show .s-intro__content-title {
+        font-size: 3.2rem;
+        margin-bottom: 0;
+    }
+   
 }
